@@ -46,9 +46,7 @@ class MALExtractor(object):
 
     @staticmethod
     def _get_config_path():
-        argv = sys.argv
-
-        if len(argv) >= 2:
+        if len(argv := sys.argv) >= 2:
             if os.path.isabs(argv[1]):
                 return argv[1]
             else:
