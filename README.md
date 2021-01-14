@@ -2,7 +2,7 @@
 
 This project runs with python3.
 
-It logs in to [MyAnimeList](https://myanimelist.net/) with the specified user and extracts the watched status of all tv shows and saves them as json.
+It logs in to [MyAnimeList](https://myanimelist.net/) with the specified user and exports the Anime and Manga xml from <https://myanimelist.net/panel.php?go=export>.
 
 ## Install
 
