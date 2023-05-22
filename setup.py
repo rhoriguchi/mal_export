@@ -10,7 +10,7 @@ setup(
     install_requires=[
         'beautifulsoup4==4.9.0',
         'PyYAML==5.3.1',
-        'requests==2.23.0'
+        'requests==2.31.0'
     ],
     license='MIT',
     name='tv_time_export',
